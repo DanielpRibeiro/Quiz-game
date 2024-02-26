@@ -1,0 +1,104 @@
+html{
+	font-family: Helvetica;
+	font-size: 40px;
+}
+
+body{
+	margin: 0 auto;
+}
+
+/* fundos seções*/
+
+/* menu */
+
+header{
+	width: 100%;
+	background-color: black;
+	color: #ffffff;
+	padding: 30px 0px;
+	margin: 0 auto;
+}
+
+/* capa */
+
+#capaHome{
+	margin: 0 auto;
+	width: 100%;
+	background-color: yellow;
+	padding: 30px 0px;
+}
+
+/* rodape */
+
+footer{
+	background-color: gray;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 0px;
+}
+
+
+
+/* fim fundo seções*/
+
+/* menu */
+main{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.divMenu{
+	/*display: grid;*/
+	display: flex;
+	gap:30px;
+	border: 3px solid pink;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.cardMenu{
+	border: 2px solid green;
+	padding: 5px;
+	display: flex;
+	width: 32%; 
+} 
+
+/* fim menu */
+
+/* capa */
+
+ .home{
+ 	max-width: 1300px;
+ 	border:3px solid red;
+ 	padding: 10px;
+ 	gap:30px;
+ 	display: flex;
+
+ }
+
+ .esquerda, .direita{
+ 	border: 2px solid pink;
+ 	padding: 10px;
+ 	width: 50%;
+ 	display: block;
+ }
+
+/* fim capa */
+
+/* rodape */
+
+ .rodape{
+ 	max-width: 1300px;
+ 	border: 3px solid green;
+ 	padding: 10px;
+ 	display: flex;
+ 	gap:30px;
+ 	margin: 0 auto;
+ }
+
+ .cardRodape{
+ 	width: 32%;
+ 	border: 2px solid blue;
+ 	padding: 10px;
+ }
+

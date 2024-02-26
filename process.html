@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Form Fields</title>
+</head>
+<body>
+<h2>Insira as perguntas</h2>
+<form>
+  <div>
+    <div>
+      <label for="txtPergunta">Insira a Pergunta</label>
+      <input type="text" name="txtPergunta" id="txtPergunta" placeholder="Pergunta">
+    </div>
+    <div>
+      <label for="txtAlternativas">Quantas Alternativas?</label>
+      <select name="txtAlternativas" id="txtAlternativas" onchange="showFields()">
+        <option value="0">Selecione...</option>
+        <option value="1">1 Alternativa</option>
+        <option value="2">2 Alternativas</option>
+        <option value="3">3 Alternativas</option>
+        <option value="4">4 Alternativas</option>
+        <option value="5">5 Alternativas</option>
+        <option value="6">6 Alternativas</option>
+      </select>
+      <br>
+      <div id="responseFields" style="display:none;">
+        </div>
+        <br>
+        <label for="txtCorreta">Marque a Alternativa Correta</label>
+        <select name="txtCorreta">
+        	<option value="1">A</option>
+
+        	<option value="2">B</option>
+
+        	<option value="3">C</option>
+
+        	<option value="4">D</option>
+
+        	<option value="5">E</option>
+
+        	<option value="6">F</option>
+        </select>
+
+        <div>
+        	<button type="submit">Enviar</button>
+        </div>
+    </div>
+  </div>
+</form>
+
+<script>
+function showFields() {
+  var numOptions = document.getElementById("txtAlternativas").value;
+  var responseFields = document.getElementById("responseFields");
+
+  if (numOptions > 0) {
+    responseFields.style.display = "block";
+    responseFields.innerHTML = ""; // Clear previous fields
+
+    for (var i = 1; i <= numOptions; i++) {
+      var label = document.createElement("label");
+      label.textContent = "Resposta " + i + ":";
+
+      var input = document.createElement("input");
+      input.type = "text";
+      input.name = "response" + i;
+      input.required = true;
+
+      responseFields.appendChild(label);
+      responseFields.appendChild(input);
+      responseFields.appendChild(document.createElement("br"));
+    }
+  } else {
+    responseFields.style.display = "none";
+    responseFields.innerHTML = ""; // Clear fields if none selected
+  }
+}
+// Function to store form data
+function storeFormData(event) {
+  event.preventDefault(); // Prevent default form submission
+
+  // Get form data
+  const formData = new FormData(document.getElementById("form"));
+
+  // Process data (e.g., save to a file, database, etc.)
+  // For example, save to a local storage object:
+  localStorage.setItem("quizData", JSON.stringify(Object.fromEntries(formData)));
+
+  // Display confirmation or perform further actions
+  alert("Form submitted!");
+}
+
+// Add event listener to the form
+document.getElementById("form").addEventListener("submit", storeFormData);
+</script>
+</body>
+</html>

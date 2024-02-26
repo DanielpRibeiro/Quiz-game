@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#quiz-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 800px;
+}
+
+#pergunta {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#respostas{
+    font-size: 13px;
+}
+
+#respostas {
+    list-style: none;
+    padding: 0;
+}
+
+#respostas li {
+    margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+    <div id="quiz-container">
+        <h2>Quiz Interativo</h2>
+        <p id="pergunta"></p>
+        <ul id="respostas"></ul>
+        <p id="feedback"></p>
+        <button id="proxima-pergunta">Próxima Pergunta</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
