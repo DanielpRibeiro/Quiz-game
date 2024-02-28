@@ -1,7 +1,7 @@
 const perguntas = [
 
    {
-    pergunta: "01 Sobre o arquivo strings.xml qual a função deste arquivo em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras? I – Este arquivo serve parar criarmos constantes literais para usarmos em todo o projeto  II – Não é recomendável criar strings via hard-code no projeto, recomenda-se usar a partir deste arquivo III – Podem até existir strings duplicadas neste arquivo mas nunca que utilizem o mesmo nome É correto afirmar que estão corretas:",
+    pergunta: "01 Sobre o arquivo strings.xml qual a função deste arquivo em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras?\n I – Este arquivo serve parar criarmos constantes literais para usarmos em todo o projeto  II – Não é recomendável criar strings via hard-code no projeto, recomenda-se usar a partir deste arquivo III – Podem até existir strings duplicadas neste arquivo mas nunca que utilizem o mesmo nome É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) III somente"],
     correta: 2,
   },
