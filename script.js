@@ -3,43 +3,43 @@ const perguntas = [
    {
     pergunta: "01 Sobre o arquivo strings.xml qual a função deste arquivo em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras? I – Este arquivo serve parar criarmos constantes literais para usarmos em todo o projeto  II – Não é recomendável criar strings via hard-code no projeto, recomenda-se usar a partir deste arquivo III – Podem até existir strings duplicadas neste arquivo mas nunca que utilizem o mesmo nome É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) III somente"],
-    correta: 0,
+    correta: 2,
   },
 
   {
     pergunta: "02 Sobre o componente TextView em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras?I – Este componente serve para exibir textos fixos na tela II – É possível que um usuário insira informações digitadas a partir deste componente III – É um componente hibrido onde hora se compota como entrada de dados e hora se comporta com saída de dados  É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) III somente"],
-    correta: 0,
+    correta: 3,
   },
   {
     pergunta: "03 – Sobre o atributos que possui sua unidade em “sp” em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras?  I – Este atributo identifica tanto tamanho de texto como dimensões de componentes no layout  II – Este atributo é usado para medir um tamanho de um componente como largura e altura por exemplo  III – Este atributo é usado para medir um tamanho de texto  É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) III somente"],
-    correta: 0,
+    correta: 3,
   },
   {
     pergunta: "04 – Sobre o atributos que possui sua unidade em “dp” em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras? I – Este atributo identifica tanto tamanho de texto como dimensões de componentes no layout  II – Este atributo é usado para medir um tamanho de um componente como largura e altura por exemplo III – Este atributo é usado para medir um tamanho de texto  É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) II somente"],
-    correta: 0,
+    correta: 4,
   },
   {
     pergunta: "05 – Sobre o atributos de um componente visual em especial o “id” em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras?  I – Este atributo identifica o componente de layout  II – Este atributo é usado em qualquer componente  III – Este atributo é opcional  É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) II somente"],
-    correta: 0,
+    correta: 1,
   },
   {
     pergunta: "06 – Sobre o componente PlainText em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras?  I – Este componente serve para exibir textos fixos na tela II – É possível que um usuário insira informações digitadas a partir deste componente III – É um componente hibrido onde hora se compota como entrada de dados e hora se comporta com saída de dados  É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) III somente"],
-    correta: 0,
+    correta: 2,
   },
   {
     pergunta: "07 – Sobre o componente PlainText em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras?  I – Este componente pode conter teclado do tipo numérico II – Este componente pode conter teclado de texto comum  III – Este componente pode conter um teclado discador É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) III somente"],
-    correta: 0,
+    correta: 2,
   },
   {
     pergunta: "08 – O que podemos afirmar sobre o limitador de tamanho do tipo “wrap_content” em um projeto Java Android? Sobre as alternativas abaixo qual(is) podemos afirmar que são verdadeiras?  I – Este atributo limita o tamanho do componente ao mínimo para abrigar o seu conteúdo  II – Este atributo limita o tamanho do componente ao seu componente pai para abrigar o seu conteúdo III – Este atributo limita o tamanho do componente ao tamanho fixo especificado  É correto afirmar que estão corretas:",
     respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) III somente"],
-    correta: 0,
+    correta: 3,
   },
   // Adicione mais perguntas aqui...
 ];
