@@ -1,6 +1,6 @@
 html{
 	font-family: Helvetica;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 body{
@@ -24,17 +24,18 @@ header{
 #capaHome{
 	margin: 0 auto;
 	width: 100%;
-	background-color: yellow;
+	background-color:#242424;
 	padding: 30px 0px;
 }
 
 /* rodape */
 
 footer{
-	background-color: gray;
+	background-color: rgb(0, 0, 0);
 	width: 100%;
 	margin: 0 auto;
 	padding: 30px 0px;
+	color: #ffffff;
 }
 
 
@@ -60,28 +61,60 @@ main{
 	border: 2px solid green;
 	padding: 5px;
 	display: flex;
-	width: 32%; 
+	width: 32%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 } 
 
 /* fim menu */
 
 /* capa */
 
- .home{
+  .home{
  	max-width: 1300px;
  	border:3px solid red;
  	padding: 10px;
  	gap:30px;
  	display: flex;
+	/* flex-direction: column; */
+	height: 50vh;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #ffffff;
 
  }
 
- .esquerda, .direita{
- 	border: 2px solid pink;
+ .home .esquerda, 
+ .home .direita {
+	display: flex;
+	flex-direction: column;
+ 	border: 2px solid blue;
  	padding: 10px;
  	width: 50%;
- 	display: block;
+	justify-content: center;
+	text-align: center;
+	align-items: center !important;
+	height: 50%;
+
+ } 
+
+ button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	color: white;
+	background-color: green;
+	border: none;
+	border-radius: 60px;
+	cursor: pointer;
  }
+
+ button:hover{
+	background-color: greenyellow;
+	color: black;
+ }
+
 
 /* fim capa */
 
