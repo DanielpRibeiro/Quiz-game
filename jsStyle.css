@@ -1,40 +1,40 @@
-html{
+html {
 	font-family: Helvetica;
 	font-size: 20px;
 }
 
-body{
+body {
 	margin: 0 auto;
 }
 
-#capaHome{
+#capaHome {
 	width: 100%;
 	height: auto;
 	min-height: 100vh;
-	background-color:#242424;
+	background-color: #242424;
 	padding: 30px 0px;
 	margin: 0 auto !important;
 
 }
 
-.home{
-    max-width: 1300px;
+.home {
+	max-width: 1300px;
 	height: 90%;
-    /* border:3px solid red; */
+	/* border:3px solid red; */
 	margin: 0 auto;
-    padding: 10px;
-    gap:30px;
-    display: flex;
-   /* flex-direction: column; */
-   /* height: 50vh; */
-   justify-content: center;
-   text-align: center;
-   align-items: center;
-   color: #ffffff;
+	padding: 10px;
+	gap: 30px;
+	display: flex;
+	/* flex-direction: column; */
+	/* height: 50vh; */
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #ffffff;
 
 }
 
-button{
+button {
 	margin: 20px 0px;
 	padding: 10px 30px;
 	color: white;
@@ -44,14 +44,14 @@ button{
 	cursor: pointer;
 	text-align: left;
 	display: flex;
- }
+}
 
- button:hover{
+button:hover {
 	background-color: greenyellow;
 	color: black;
- }
+}
 
-.corrig{
+.corrig {
 	background-color: greenyellow;
 	color: black;
 }
@@ -59,7 +59,7 @@ button{
 
 
 
- /* ******************************** */
+/* ******************************** */
 
 
 #quiz-container {
@@ -70,7 +70,7 @@ button{
 }
 
 @media (max-width:600px) {
-	#quiz-container{
+	#quiz-container {
 		padding: 20px;
 	}
 }
@@ -80,10 +80,12 @@ button{
 	margin-bottom: 10px;
 	text-align: left;
 }
-#radio{
+
+#radio {
 	padding: 10px;
 
 }
+
 #respostas {
 	font-size: 20px;
 	text-align: left;
@@ -91,7 +93,7 @@ button{
 	cursor: pointer;
 }
 
-	
+
 
 #respostas {
 	list-style: none;
@@ -102,30 +104,42 @@ button{
 	margin-bottom: 20px;
 }
 
-#feedback{
+#feedback {
 	text-align: left;
 }
 
-.btt{
+.btt {
 	flex-direction: column;
 	justify-content: left;
 	align-items: start;
 	/* border: 2px solid red; */
 }
 
-.btt button{
+.btt button {
 	text-align: left;
 	align-items: center;
+	font-weight: 600;
 }
 
-h1{
+h1 {
 	color: greenyellow;
+	text-align: left;
 }
 
 .acerto {
 	color: greenyellow;
-  }
-  
-  .erro {
+}
+
+.erro {
 	color: red;
-  }
+}
+
+.pontuacao-at {
+	color: greenyellow;
+	text-align: left;
+}
+
+.pontuacao-err {
+	color: rgb(205, 0, 34);
+	text-align: left;
+}
