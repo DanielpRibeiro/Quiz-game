@@ -1,9 +1,9 @@
-html{
+html {
 	font-family: Helvetica;
 	font-size: 20px;
 }
 
-body{
+body {
 	margin: 0 auto;
 }
 
@@ -11,7 +11,7 @@ body{
 
 /* menu */
 
-header{
+header {
 	width: 100%;
 	background-color: black;
 	color: #ffffff;
@@ -21,16 +21,19 @@ header{
 
 /* capa */
 
-#capaHome{
+#capaHome {
 	margin: 0 auto;
 	width: 100%;
-	background-color:#242424;
+	background-color: #242424;
 	padding: 30px 0px;
+	height: 100vh;
+	align-items: center;
+	display: flex;
 }
 
 /* rodape */
 
-footer{
+footer {
 	background-color: rgb(0, 0, 0);
 	width: 100%;
 	margin: 0 auto;
@@ -43,21 +46,21 @@ footer{
 /* fim fundo seções*/
 
 /* menu */
-main{
+main {
 	max-width: 1300px;
 	margin: 0 auto;
 }
 
-.divMenu{
+.divMenu {
 	/*display: grid;*/
 	display: flex;
-	gap:30px;
+	gap: 30px;
 	border: 3px solid pink;
 	padding: 10px;
 	margin: 0 auto;
 }
 
-.cardMenu{
+.cardMenu {
 	border: 2px solid green;
 	padding: 5px;
 	display: flex;
@@ -65,18 +68,22 @@ main{
 	text-align: center;
 	align-items: center;
 	justify-content: center;
-} 
+}
 
 /* fim menu */
 
 /* capa */
 
-  .home{
- 	max-width: 1300px;
- 	border:3px solid red;
- 	padding: 10px;
- 	gap:30px;
- 	display: flex;
+.hidden {
+	display: none;
+}
+
+.home {
+	width: 80%;
+	/* border: 3px solid red; */
+	padding: 10px;
+	gap: 30px;
+	display: flex;
 	/* flex-direction: column; */
 	height: 50vh;
 	justify-content: center;
@@ -84,23 +91,23 @@ main{
 	align-items: center;
 	color: #ffffff;
 
- }
+}
 
- .home .esquerda, 
- .home .direita {
+.home .esquerda,
+.home .direita {
 	display: flex;
 	flex-direction: column;
- 	border: 2px solid blue;
- 	padding: 10px;
- 	width: 50%;
+	/* border: 2px solid blue; */
+	padding: 10px;
+	width: 50%;
 	justify-content: center;
 	text-align: center;
 	align-items: center !important;
-	height: 50%;
+	height: auto;
 
- } 
+}
 
- button{
+button {
 	margin-top: 20px;
 	padding: 10px 30px;
 	color: white;
@@ -108,30 +115,64 @@ main{
 	border: none;
 	border-radius: 60px;
 	cursor: pointer;
- }
+}
 
- button:hover{
+button:hover {
 	background-color: greenyellow;
 	color: black;
- }
+}
 
 
 /* fim capa */
 
 /* rodape */
 
- .rodape{
- 	max-width: 1300px;
- 	border: 3px solid green;
- 	padding: 10px;
- 	display: flex;
- 	gap:30px;
- 	margin: 0 auto;
- }
+.rodape {
+	max-width: 1300px;
+	border: 3px solid green;
+	padding: 10px;
+	display: flex;
+	gap: 30px;
+	margin: 0 auto;
+}
 
- .cardRodape{
- 	width: 32%;
- 	border: 2px solid blue;
- 	padding: 10px;
- }
+.cardRodape {
+	width: 32%;
+	/* border: 2px solid blue; */
+	padding: 10px;
+}
 
+
+/*  */
+
+.full-button {
+	width: 100%;
+	padding: 10px; /* Adicionando um pouco de padding para melhorar a aparência */
+	font-size: 20px; /* Tamanho da fonte do botão */
+	background-color: green; /* Cor de fundo do botão (azul) */
+	color: #fff; /* Cor do texto do botão (branco) */
+	border: none; /* Removendo a borda do botão */
+	border-radius: 5px; /* Adicionando um pouco de arredondamento às bordas */
+	cursor: pointer; /* Mudando o cursor para indicar que é clicável */
+}
+
+
+@media (max-width:700px) {
+	
+	button {
+		font-size: 20px;
+		width: 100%;
+		/* padding: 0px; */
+		box-sizing: border-box !important;
+	}
+
+	.esquerda{
+		/* border: 1px solid red !important; */
+		width: 90%;
+	}
+
+	#capaHome{
+		height: 100vh;
+		display: block;
+	}
+}
