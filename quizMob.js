@@ -1,5 +1,87 @@
 const perguntas = [
     {
+        pergunta: "Qual é o propósito do arquivo XML em um projeto Android?",
+        respostas: [
+            "a) Definir a estrutura da interface do usuário usando o XML de layout.",
+            "b) Declarar recursos como strings, cores e dimensões.",
+            "c) Especificar permissões, atividades e outros componentes no AndroidManifest.xml."
+        ],
+        correta: 0,
+        explicacaoResposta: "O arquivo XML em um projeto Android é utilizado para definir a estrutura da interface do usuário usando o XML de layout."
+    },
+    {
+        pergunta: "Como você adicionaria um novo botão a uma atividade em um aplicativo Android?",
+        respostas: [
+            "a) Adicionar um elemento `<Button>` ao arquivo XML de layout da atividade.",
+            "b) Criar um novo botão programaticamente no método `onCreate()` da atividade usando Java.",
+            "c) Usar a classe `Button` para inflar um botão de um layout XML na atividade."
+        ],
+        correta: 0,
+        explicacaoResposta: "Para adicionar um novo botão a uma atividade em um aplicativo Android, você deve adicionar um elemento `<Button>` ao arquivo XML de layout da atividade."
+    },
+    {
+        pergunta: "Para que serve o arquivo .java em um projeto Android?",
+        respostas: [
+            "a) Implementar a lógica de negócios de uma atividade, fragmento ou serviço.",
+            "b) Gerenciar o ciclo de vida dos componentes Android.",
+            "c) Conectar a interface do usuário definida no XML com a lógica de negócios por meio de findViewById()."
+        ],
+        correta: 0,
+        explicacaoResposta: "O arquivo .java em um projeto Android é utilizado para implementar a lógica de negócios de uma atividade, fragmento ou serviço."
+    },
+    {
+        pergunta: "Quais são os passos básicos para criar uma função de clique de botão em um aplicativo Android?",
+        respostas: [
+            "a) Adicionar um botão ao layout XML.",
+            "b) Implementar o método `onClick()` na classe Java da atividade.",
+            "c) Associar o método `onClick()` ao botão no arquivo XML usando o atributo `android:onClick`."
+        ],
+        correta: 2,
+        explicacaoResposta: "Os passos básicos para criar uma função de clique de botão em um aplicativo Android são adicionar um botão ao layout XML, implementar o método `onClick()` na classe Java da atividade e associar o método `onClick()` ao botão no arquivo XML usando o atributo `android:onClick`."
+    },
+    {
+        pergunta: "Como você adicionaria uma nova dependência ao seu projeto Android usando o Gradle?",
+        respostas: [
+            "a) Adicionar a dependência ao arquivo `build.gradle` do módulo.",
+            "b) Sincronizar o projeto para baixar a dependência do repositório Maven.",
+            "c) Usar a sintaxe correta para especificar a dependência, incluindo o grupo, nome e versão."
+        ],
+        correta: 0,
+        explicacaoResposta: "Para adicionar uma nova dependência ao seu projeto Android usando o Gradle, você deve adicionar a dependência ao arquivo `build.gradle` do módulo."
+    },
+    {
+        pergunta: "Qual é a diferença entre `match_parent` e `wrap_content` em um layout XML?",
+        respostas: [
+            "a) `match_parent` faz com que o componente preencha o espaço disponível no pai.",
+            "b) `wrap_content` faz com que o componente ajuste seu tamanho conforme o conteúdo que ele contém.",
+            "c) Ambos são valores de atributo usados para definir as dimensões de um componente no layout XML."
+        ],
+        correta: 0,
+        explicacaoResposta: "A diferença entre `match_parent` e `wrap_content` em um layout XML é que `match_parent` faz com que o componente preencha o espaço disponível no pai, enquanto `wrap_content` faz com que o componente ajuste seu tamanho conforme o conteúdo que ele contém."
+    },
+    {
+        pergunta: "Como você implementaria uma RecyclerView em um aplicativo Android para exibir uma lista de itens?",
+        respostas: [
+            "a) Definir um layout XML para o item da lista.",
+            "b) Criar uma classe de adaptador que estende RecyclerView.Adapter.",
+            "c) Configurar a RecyclerView no XML de layout da atividade e definir um LayoutManager."
+        ],
+        correta: 2,
+        explicacaoResposta: "Para implementar uma RecyclerView em um aplicativo Android para exibir uma lista de itens, você deve definir um layout XML para o item da lista, criar uma classe de adaptador que estende RecyclerView.Adapter e configurar a RecyclerView no XML de layout da atividade e definir um LayoutManager."
+    },
+    {
+        pergunta: "Quais são os principais componentes do padrão de arquitetura MVVM (Model-View-ViewModel) em desenvolvimento Android?",
+        respostas: [
+            "a) Modelo (Model), Visualização (View), ViewModel.",
+            "b) Modelo (Model), Visualização (View), Controlador (Controller).",
+            "c) Visualização (View), Controlador (Controller), ViewModel."
+        ],
+        correta: 0,
+        explicacaoResposta: "Os principais componentes do padrão de arquitetura MVVM (Model-View-ViewModel) em desenvolvimento Android são Modelo (Model), Visualização (View) e ViewModel."
+    },
+    {
+        pergunta: "Como você lidaria com a persistência de dados em um aplicativo
+    {
         pergunta: "Como você adicionaria um TextView programaticamente em uma atividade Java do Android?",
         respostas: [
             "a) TextView textView = new TextView(this);",
@@ -152,6 +234,56 @@ const perguntas = [
         ],
         correta: 0,
         explicacaoResposta: "Para importar um projeto existente no Android Studio, você usaria a opção 'a', que permite selecionar o diretório do projeto existente e importá-lo para o Android Studio."
+    },
+    {
+        pergunta: "Como você criaria um programa básico para solicitar ao usuário que insira um texto em um aplicativo Android?",
+        respostas: [
+            "a) Adicionar um EditText ao layout XML da atividade.",
+            "b) Implementar um OnClickListener no botão para capturar o texto inserido.",
+            "c) Recuperar o texto digitado usando o método getText() do EditText."
+        ],
+        correta: 0,
+        explicacaoResposta: "Para criar um programa básico para solicitar ao usuário que insira um texto em um aplicativo Android, você deve adicionar um EditText ao layout XML da atividade."
+    },
+    {
+        pergunta: "Quais são os passos necessários para exibir uma imagem em um aplicativo Android?",
+        respostas: [
+            "a) Adicionar uma ImageView ao layout XML da atividade e definir a imagem usando o atributo src.",
+            "b) Carregar a imagem em um objeto Bitmap e definir a imagem na ImageView programaticamente.",
+            "c) Adicionar a imagem à pasta drawable e referenciá-la usando R.drawable."
+        ],
+        correta: 2,
+        explicacaoResposta: "Para exibir uma imagem em um aplicativo Android, você deve adicionar a imagem à pasta drawable e referenciá-la usando R.drawable."
+    },
+    {
+        pergunta: "Como você adicionaria valores a um ArrayList em um aplicativo Android?",
+        respostas: [
+            "a) Usando o método add() do ArrayList para adicionar valores um por um.",
+            "b) Definindo os valores diretamente na declaração do ArrayList no arquivo de código Java.",
+            "c) Utilizando o método set() do ArrayList para definir os valores."
+        ],
+        correta: 0,
+        explicacaoResposta: "Para adicionar valores a um ArrayList em um aplicativo Android, você deve usar o método add() do ArrayList para adicionar valores um por um."
+    },
+    {
+        pergunta: "Quais são os passos para calcular a soma de dois números em um aplicativo Android?",
+        respostas: [
+            "a) Obter os números digitados pelo usuário e calcular a soma usando Java.",
+            "b) Usar um componente Button para ativar o cálculo quando clicado.",
+            "c) Exibir o resultado da soma em um TextView."
+        ],
+        correta: 0,
+        explicacaoResposta: "Os passos para calcular a soma de dois números em um aplicativo Android são obter os números digitados pelo usuário e calcular a soma usando Java."
+    },
+    {
+        pergunta: "Como você lidaria com eventos de clique de botão em um aplicativo Android?",
+        respostas: [
+            "a) Definindo um método onClickListener() para o botão e implementando a lógica de clique nele.",
+            "b) Usando o atributo onClick no XML de layout para associar um método de clique ao botão.",
+            "c) Adicionando um OnClickListener diretamente ao arquivo XML do botão."
+        ],
+        correta: 0,
+        explicacaoResposta: "Para lidar com eventos de clique de botão em um aplicativo Android, você deve definir um método onClickListener() para o botão e implementar a lógica de clique nele."
     }
 
 
