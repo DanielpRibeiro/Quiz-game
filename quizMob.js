@@ -79,8 +79,7 @@ const perguntas = [
         correta: 0,
         explicacaoResposta: "Os principais componentes do padrão de arquitetura MVVM (Model-View-ViewModel) em desenvolvimento Android são Modelo (Model), Visualização (View) e ViewModel."
     },
-    {
-        pergunta: "Como você lidaria com a persistência de dados em um aplicativo
+    
     {
         pergunta: "Como você adicionaria um TextView programaticamente em uma atividade Java do Android?",
         respostas: [
