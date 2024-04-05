@@ -24,12 +24,7 @@ const perguntas = [
         correta: 0,
         explicacaoResposta: 'A - Correta: Uma VPN (Virtual Private Network) é um protocolo de rede usado para atribuir automaticamente endereços IP e criar conexões seguras sobre uma rede pública. Um DNS (Domain Name System) é um serviço usado para traduzir nomes de domínio em endereços IP correspondentes.',
     },
-    {
-        pergunta: "Qual das seguintes afirmações é verdadeira sobre a classificação das informações nas organizações?",
-        respostas: ["a) Informação pública refere-se a informações confidenciais que requerem proteção contra acesso não autorizado.", "b) Informação interna é acessível livremente e pode ser divulgada sem restrições.", "c) Informação confidencial é aquela que não requer proteção especial.", "d) Informação secreta é reservada para uso público e não requer proteção especial."],
-        correta: 3,
-        explicacaoResposta: 'D - Correta: Informação secreta é o nível mais alto de informação confidencial, geralmente relacionada a assuntos críticos de segurança nacional ou estratégias empresariais altamente confidenciais, acessível apenas a indivíduos com autorização especial.',
-    },
+
     {
         pergunta: "Qual é o componente de rede responsável por encaminhar o tráfego entre redes diferentes?",
         respostas: ["a) Gateway padrão", "b) Servidor", "c) Estação", "d) Máscara de sub-rede"],
@@ -125,18 +120,7 @@ const perguntas = [
         correta: 1,
         explicacaoResposta: 'B - Correta: O STP (Spanning Tree Protocol) é usado para prevenir loops de comutação em redes Ethernet, desativando portas redundantes e mantendo uma topologia de rede sem loop.',
     },
-    {
-        pergunta: "Explique brevemente o conceito de criptografia homomórfica e sua importância para a segurança da informação.",
-        respostas: "A criptografia homomórfica é uma técnica que permite realizar operações matemáticas em dados criptografados sem a necessidade de descriptografá-los primeiro. Isso é importante porque permite que cálculos sensíveis sejam realizados em dados confidenciais sem comprometer sua privacidade.",
-    },
-    {
-        pergunta: "Descreva os diferentes tipos de ataques de negação de serviço (DDoS) e forneça exemplos de cada um.",
-        respostas: "Os diferentes tipos de ataques DDoS incluem: 1) Ataques de volume, que sobrecarregam a largura de banda da vítima com um grande volume de tráfego; 2) Ataques de exaustão de recursos, que exploram vulnerabilidades nos recursos da vítima, como conexões TCP ou recursos de sistema; 3) Ataques de aplicativos, que visam esgotar os recursos de um aplicativo específico, como CPU ou memória, tornando-o inacessível.",
-    },
-    {
-        pergunta: "Discuta as implicações de segurança da Internet das Coisas (IoT) e como as vulnerabilidades nesse campo podem afetar a segurança cibernética em geral.",
-        respostas: "A Internet das Coisas (IoT) introduz uma ampla gama de dispositivos conectados à Internet, desde eletrodomésticos inteligentes até dispositivos médicos e veículos autônomos. As vulnerabilidades nesses dispositivos podem ser exploradas por invasores para acessar redes residenciais, corporativas ou até mesmo infraestrutura crítica, representando sérias ameaças à segurança cibernética em geral. Essas implicações incluem riscos de privacidade, ataques de negação de serviço distribuídos (DDoS) em larga escala e comprometimento da integridade e confidencialidade dos dados transmitidos por meio desses dispositivos.",
-    },
+   
     // Perguntas de Múltipla Escolha (Nível Extremo de Dificuldade)
 
     {
