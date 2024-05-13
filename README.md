@@ -12,3 +12,5 @@
 
 # Erro Educacional 
 ![image](https://github.com/DanielpRibeiro/Quiz-game/assets/78006439/8094039d-c09f-4ba9-915a-e3aebd6b83ea)
+
+link: https://danielpribeiro.github.io/Quiz-game/
