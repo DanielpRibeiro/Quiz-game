@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 1 Python</title>
+    <link rel="stylesheet" href="../style/jsStyle.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section id="capaHome">
+        <main class="home">
+
+            <div id="quiz-container">
+               
+                <h1>Estudo SI</h1>
+                <p class="pontuacao-at">Respostas corretas até o momento 🏄‍♀️ <span id="pontuacao-atual"></span></p>
+                <p class="pontuacao-err">Burrice atualmente 👍 <span id="erro-atual"></span></p>
+
+                <p id="pergunta"></p>
+                <ul id="respostas"></ul>
+                <p id="feedback"></p>
+                <div class="btt">
+                    <button class="corrig" id="verificar-resposta">Verificar Resposta</button>
+                </div>
+                <div class="btt">
+                    <button id="proxima-pergunta">Próxima Pergunta</button>
+                </div>
+
+            </div>
+        </main>
+    </section>
+
+    <script src="../model/quizSI.js"></script>
+</body>
+
+</html>
