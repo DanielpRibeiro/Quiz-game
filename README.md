@@ -1,9 +1,6 @@
 
-# Att 05/24 | Inclusao IMG
+# Att 05/24 
 ![image](https://github.com/DanielpRibeiro/Quiz-game/assets/78006439/9b1fea36-83f3-44fb-9eae-3f343786d021)
-
-![image](https://github.com/DanielpRibeiro/Quiz-game/assets/78006439/4dfa5da3-0e72-4a7b-9be5-9f89b4a77745)
-
 
 # Início
 
