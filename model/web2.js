@@ -131,6 +131,43 @@ const perguntas = [
         respostas: ["a) null", "b) TypeError", "c) 'Hello, World!'", "d) undefined"],
         correta: 3,
         explicacaoResposta: ""
+    },
+    {
+        pergunta: "Qual método é usado para selecionar o elemento `<h1>` com o ID 'demo'?",
+        respostas: ["a) querySelector()", "b) getElementById()", "c) getElementsByClassName()", "d) getElementsByTagName()"],
+        correta: 1,
+        explicacaoResposta: "O método `getElementById()` é usado para selecionar o elemento com o ID especificado."
+    },
+    {
+        pergunta: "Qual propriedade é usada para definir o conteúdo de texto do elemento `<h1 id='x'>`\n document.getElementById('x').******** = 'Hello, World!';?",
+        respostas: ["a) innerHTML", "b) textContent", "c) innerText", "d) outerHTML"],
+        correta: 2,
+        explicacaoResposta: "A propriedade `innerText` é usada para definir o conteúdo de texto do elemento."
+    },
+    
+    {
+        pergunta: "Como o JavaScript define o conteúdo de texto para exibir o resultado da soma?",
+        respostas: ["a) document.getElementById('soma').textContent", "b) document.getElementById('soma').innerHTML", "c) document.getElementById('soma').innerText", "d) document.getElementById('soma').outerHTML"],
+        correta: 2,
+        explicacaoResposta: "A propriedade innerText é usada para definir o conteúdo de texto do elemento com o ID 'soma'."
+    },
+    {
+        pergunta: "Dado o seguinte trecho de código, qual será o valor exibido para a variável `soma` se `num1` for redefinido como uma string '10'?\n\n```javascript\nvar num1 = '10';\nvar num2 = 5;\nvar soma = num1 + num2;\ndocument.getElementById('soma').innerText = \"Soma: \" + num1 + \" + \" + num2 + \" = \" + soma;\n```",
+        respostas: ["a) Soma: 10 + 5 = 15", "b) Soma: 10 + 5 = 105", "c) Soma: 10 + 5 = NaN", "d) Soma: 10 + 5 = undefined"],
+        correta: 1,
+        explicacaoResposta: "Quando `num1` é uma string e `num2` é um número, o operador `+` concatena os valores, resultando em '105'."
+    },
+    {
+        pergunta: "Qual será a saída do seguinte código considerando que `num1` e `num2` são ambos strings, ou seja, `var num1 = '10'; var num2 = '5';`?\n\n```javascript\nvar soma = num1 + num2;\nvar subtracao = num1 - num2;\ndocument.getElementById('soma').innerText = \"Soma: \" + num1 + \" + \" + num2 + \" = \" + soma;\ndocument.getElementById('subtracao').innerText = \"Subtração: \" + num1 + \" - \" + num2 + \" = \" + subtracao;\n```",
+        respostas: ["a) Soma: 10 + 5 = 15; Subtração: 10 - 5 = 5", "b) Soma: 10 + 5 = 105; Subtração: 10 - 5 = 5", "c) Soma: 10 + 5 = 105; Subtração: 10 - 5 = NaN", "d) Soma: 10 + 5 = NaN; Subtração: 10 - 5 = NaN"],
+        correta: 2,
+        explicacaoResposta: "Quando `num1` e `num2` são strings, o operador `+` concatena as strings resultando em '105', e o operador `-` converte as strings para números e realiza a subtração, resultando em 5."
+    },
+    {
+        pergunta: "Considere o código abaixo. Qual é a saída exibida no console e no elemento com ID 'soma'?\n\n```javascript\nvar num1 = 10;\nvar num2 = '5';\nvar soma = num1 + Number(num2);\nconsole.log(soma);\ndocument.getElementById('soma').innerText = \"Soma: \" + num1 + \" + \" + num2 + \" = \" + soma;\n```",
+        respostas: ["a) Soma: 10 + 5 = 15; 15 no console", "b) Soma: 10 + 5 = 105; 105 no console", "c) Soma: 10 + 5 = 15; 105 no console", "d) Soma: 10 + 5 = 105; 15 no console"],
+        correta: 0,
+        explicacaoResposta: "A função `Number(num2)` converte a string '5' para o número 5, resultando em uma soma aritmética correta. O console e o elemento exibem 15."
     }
     
     // {
