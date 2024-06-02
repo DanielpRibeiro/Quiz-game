@@ -510,7 +510,7 @@ const perguntas = [
     
         É correto afirmar que estão corretas:`,
         respostas: ["a) II e III, apenas", "b) I e II, apenas", "c) I, II e III", "d) I somente", "e) II somente"],
-        correta: 3,
+        correta: 2,
         explicacaoResposta: 'A opção correta é "c) I, II E III apenas". Para instalar a biblioteca cors em um projeto Node.js, utilizamos o comando "npm install cors" (alternativa I). A biblioteca cors é utilizada para permitir ou bloquear requisições HTTP entre diferentes origens, mantendo a compatibilidade de comunicação entre diferentes plataformas (alternativa II). E podemos utilizá-la dentro do projeto Node.js utilizando o comando "const cors = require(\'cors\');" (alternativa III).',
       },
     
