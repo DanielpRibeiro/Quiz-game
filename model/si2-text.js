@@ -322,7 +322,7 @@ function verificarResposta() {
     if (perguntaAtual.tipo === "discursiva") {
         if (respostaSelecionada) {
             // Mostra a explicação da resposta para perguntas discursivas
-            feedbackElement.innerHTML = `Resposta registrada!<br><br><span style="color:white">${perguntaAtual.explicacaoResposta}</span>`;
+            feedbackElement.innerHTML = `Confira a resposta esperada<br><br><span style="color:white">${perguntaAtual.explicacaoResposta}</span>`;
             feedbackElement.classList.remove("erro");
             feedbackElement.classList.add("acerto");
 
