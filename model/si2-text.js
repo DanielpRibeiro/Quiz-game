@@ -192,6 +192,24 @@ const perguntas = [
     tipo: "discursiva",
     explicacaoResposta: "TCP/IP (Transmission Control Protocol/Internet Protocol) é um conjunto de protocolos de comunicação usados para interconectar dispositivos de rede na internet. O TCP cuida da transmissão de dados e o IP trata do endereçamento e roteamento dos pacotes de dados."
 },
+    {
+    pergunta: "Explique a sigla VPN.",
+    respostas: [], // Não há respostas predefinidas para perguntas discursivas
+    tipo: "discursiva",
+    explicacaoResposta: "Um serviço de VPN usa criptografia para proteger sua conexão com a Internet contra acesso não autorizado. Ele também pode atuar como um mecanismo de desligamento, encerrando programas pré-selecionados em caso de atividade suspeita na Internet. Isso diminui a probabilidade de os dados serem comprometidos."
+},
+       {
+    pergunta: "Explique a sigla SSL",
+    respostas: [], // Não há respostas predefinidas para perguntas discursivas
+    tipo: "discursiva",
+    explicacaoResposta: "SSL significa Secure Sockets Layer, um tipo de segurança digital que permite a comunicação criptografada entre um domínio de site e um navegador."
+},
+        {
+    pergunta: "Explique a sigla HTTPS",
+    respostas: [], // Não há respostas predefinidas para perguntas discursivas
+    tipo: "discursiva",
+    explicacaoResposta: "A sigla significa Hyper Text Transfer Protocol Secure (HTTPS), que traduzida para o português significa “Protocolo de Transferência de Hipertexto Seguro”. Esse protocolo é a combinação dos protocolos HTTP e SSL (Secure Sockest Layers)."
+},
 {
     pergunta: "Apresente algumas ameaças cibernéticas e como são praticadas",
     respostas: [], // Não há respostas predefinidas para perguntas discursivas
