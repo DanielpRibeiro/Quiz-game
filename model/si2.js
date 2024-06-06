@@ -12,28 +12,23 @@ const perguntas = [
         correta: 4,
         explicacaoResposta: 'O loop for itera de 0 a 2 (inclusive) e imprime cada valor de i.',
     },
-
-
     {
-        pergunta: `Conceitue Compliance`,
-        respostas: [
-            `A) O compliance é um termo relacionado apenas à área de recursos humanos.`,
-            `B) O compliance abrange apenas conformidade com leis específicas de um país.`,
-            `C) O compliance é um conjunto de procedimentos que visam aumentar a lucratividade da empresa.`,
-            `D) O compliance refere-se à conformidade com leis, regulamentos, políticas internas e externas, bem como padrões éticos e comportamentais dentro de uma organização, prevenindo práticas ilegais, corrupção e fraudes.`,
-        ],
-        correta: 3,
+        pergunta: `A Oracle VM VirtualBox, software de virtualização de plataforma cruzada de código aberto mais popular do mundo, permite que os desenvolvedores forneçam código mais rápido executando vários sistemas operacionais em um único dispositivo. Equipes de TI e provedores de soluções usam a VirtualBox para reduzir custos operacionais e encurtar o tempo necessário para implementar aplicações on-premise e na nuvem de forma segura. Ao configurar uma máquina em VM, percebe-se questões como:
+    
+    I) Define-se uma máquina física, com configurações que pode escolher ao criar a máquina<br>
+    
+    II. É possível estabelecer uma arquitetura previamente, de modo que a máquina já fique pré-configurada para o tipo de sistema que irá executar<br>
+    
+    III. Por mais prática que seja a máquina virtual só permite acesso à rede local, por meio de infraestrutura emulada, não permitindo a herança de conexões externas.<br>
+    
+    IV. A máquina virtual conta com recursos que representam o funcionamento e configuração de uma máquina física<br>
+    
+    Analisando os itens acima é possível perceber que:<br>`,
+        respostas: ["a) Apenas as asserções I e II estão corretas.", "b) Apenas as asserções I, III e IV estão corretas.", "c) As asserções I, II, III e IV estão corretas.", "d) Apenas as asserções II e IV estão corretas.", "e) Não existe nenhuma afirmação correta."],
+        correta: 1,
+        explicacaoResposta: "As asserções I, III e IV estão corretas. I está correta porque se define uma máquina física ao criar a VM. III está correta porque a VM permite acesso apenas à rede local por meio de infraestrutura emulada. IV está correta porque a VM simula o funcionamento de uma máquina física."
     },
-    {
-        pergunta: `Ainda sobre compliance, apresente e explique cada uma das políticas, procedimentos e normas estabelecidos dentro da organização`,
-        respostas: [
-            `A) Políticas: Diretrizes gerais que orientam o comportamento e as decisões dos funcionários em relação a questões específicas, como ética, segurança da informação e conformidade legal. Procedimentos: Instruções detalhadas sobre como realizar determinadas tarefas ou processos dentro da organização, seguindo as políticas estabelecidas. Normas: Regras específicas e técnicas que devem ser seguidas para garantir a conformidade com padrões e regulamentos, como normas ISO, leis de privacidade de dados, entre outras.`,
-            `B) `,
-            `C) `,
-            `D) `,
-        ],
-        correta: 0,
-    },
+
     {
         pergunta: `Diferencie compliance interno de externo.`,
         respostas: [
