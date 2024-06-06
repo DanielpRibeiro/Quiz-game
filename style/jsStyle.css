@@ -7,6 +7,14 @@ body {
 	margin: 0 auto;
 }
 
+textarea{
+	background-color: #242424;
+	border: greenyellow 2px solid ;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+}
+
 #capaHome {
 	width: 100%;
 	height: auto;
@@ -73,12 +81,18 @@ button:hover {
 	#quiz-container {
 		padding: 20px;
 	}
+	textarea{
+		width: 100%;
+		height: auto;
+	}
 }
 
 #pergunta {
 	font-size: 20px;
 	margin-bottom: 10px;
 	text-align: left;
+	color: white;
+	font-size: 17px;
 }
 
 #radio {
